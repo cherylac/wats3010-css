@@ -30,11 +30,16 @@ aside img {
 
 section {
     clear: both;
+    width: 50%;
+    background-color: rgba(255,255,255, 0.3);
 }
 
 ul.poem {
     list-style-type: none;
     padding-left: 5rem;
+    line-height: 1.25;
+    font-size: 1.5rem;
+    
 }
 
 footer {
