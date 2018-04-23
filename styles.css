@@ -6,17 +6,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background: purple;
+    margin: 3rem 1rem;
+}
+header h1 {
+    margin-bottom:0;
 }
 
+
 aside {
-    background: pink;
+    width: 50%;
+    border: 1px solid black;
+    padding: 1rem;
+    max-width: 756px;
+}
+
+aside img {
+    width: 180px;
+    height: auto;
+    float: right;
 }
 
 section {
-    background: green;
+    clear: both;
 }
 
 footer {
-    background: blue;
+    
+}
+
+.page-footer {
+    border-top: 2px rgba(0,0,0, 0.6) solid;
+    padding-top: 2rem;
 }
