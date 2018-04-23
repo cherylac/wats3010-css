@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
     margin: 3rem 1rem;
 }
+
 header h1 {
     margin-bottom:0;
 }
@@ -16,18 +17,24 @@ header h1 {
 aside {
     width: 50%;
     border: 1px solid black;
-    padding: 1rem;
+    padding: 2rem;
+    height: auto;
     max-width: 756px;
 }
 
 aside img {
-    width: 180px;
+    width: 160px;
     height: auto;
     float: right;
 }
 
 section {
     clear: both;
+}
+
+ul.poem {
+    list-style-type: none;
+    padding-left: 5rem;
 }
 
 footer {
@@ -37,4 +44,10 @@ footer {
 .page-footer {
     border-top: 2px rgba(0,0,0, 0.6) solid;
     padding-top: 2rem;
+}
+
+html {
+    background-image: url(images/hard-paper-texture.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
 }
